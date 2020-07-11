@@ -1,1 +1,23 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: lightblue;
+  border-radius: 0;
+  border: 2px solid black;
+  
+}
+#company-name {
 
+  color: black;
+  font-size: 40px;
+  width: 190px;
+  height: 70px;
+  margin-left: 30px;
+
+
+}
