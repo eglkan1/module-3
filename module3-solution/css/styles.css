@@ -7,60 +7,112 @@ body {
 }
 /** HEADER **/
 #header-nav {
+
   background-color: lightblue;
   border-radius: 0;
-  height: 80px;
   border: 2px solid black;
-  padding: 10px 20px 30px 30px;
- 
 }
+
 #company-name {
 
+ font-family: 'Lora', serif;
   color: black;
-  font-size: 40px;
-  margin-top: -10px;
-
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
 }
+#Menu {
+
+  color: black;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #222;
+ }
+
+#chicken, #beef, #sushi   {
+  border: 2px solid black;
+  margin-bottom: 20px;
+background-color: lightgrey;
+}
+
+
+
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid black;
-  width: 30px;
-  margin: 10px 0px 10px -10px;
-  padding: 0px 0px 0px 0px;
- 
 
 }
 
 .navbar-header button.navbar-toggle {
 
- margin: 0px 5px 15px 0px;
- padding:  0px 30px 0px 20px;
+  clear: both;
+  margin-top: -30px;
+  margin-bottom: 30px;
  
 }
- 
-
 
 
 #nav-list {
-  text-align: center;
 
-  
+  text-align: center;
+  margin: auto;
+
 }
 #nav-list a:hover {
   background: #E7E7E7;
   border: 2px solid black;
+
 }
 #nav-list a {
   border: 1px solid black;
   padding-bottom: 10px;
-  margin-bottom: 2px; 
-  background-color: lightpink;
+  background-color: #DFF9FB;
+
 }
 
+#main-content {
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#collapsable-nav {
+  padding: 0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #header-nav {
+
+  height: 95px;
+
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ 
+ #header-nav {
+
+  height: 95px;
+
+}
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#header-nav {
+
+  height: 95px;
+
+}
+}
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-
-
-
+  
   }
+  /* End Header */
